@@ -1,0 +1,41 @@
+{
+  "name": "ws_node_surf",
+  "version": "1.0.0",
+  "description": "TypeScript Node.js API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/src/index.js",
+    "lint": "eslint ./src ./test --ext .ts",
+    "lint:fix": "eslint ./src ./test --ext .ts --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmarinke/ws_node_surf.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api",
+    "sonar",
+    "ci/cd"
+  ],
+  "author": "Rogerio Marinke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmarinke/ws_node_surf/issues"
+  },
+  "homepage": "https://github.com/rmarinke/ws_node_surf#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "eslint": "^8.38.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}

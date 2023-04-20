@@ -10,7 +10,7 @@ export class ForecastController {
         time: '2020-04-26T00:00:00+00:00',
         forecast: [
           {
-            lat: -33.792726,
+            lat: -33.0,
             lng: 151.289824,
             name: 'Manly',
             position: 'E',
